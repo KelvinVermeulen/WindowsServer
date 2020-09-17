@@ -1,0 +1,4 @@
+EXEC sp_addsrvrolemember [KELVIN\spAdmin], 'securityadmin';
+GO
+EXEC sp_addsrvrolemember [KELVIN\spAdmin], 'dbcreator';
+GO 
