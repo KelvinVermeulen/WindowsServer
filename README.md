@@ -1,4 +1,4 @@
-# WindowsServer
+# Windows Server
  Opdracht 3de jaarsvak 'Windows Server'
 
  # Windows server Examen Periode 3
