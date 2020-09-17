@@ -28,6 +28,8 @@
  ii. 1 NIC op intern netwerk met volgende IP configuratie
  1. IP: 192.168.1 00 .1 0
  2. SN: 255.255.255.
+ 
+ 
  **2. SQL server**
      a. OS: Windows 2016 of 2019
      b. Naam SQL Server ➔ WIN-SQL-3DE
@@ -37,6 +39,8 @@
            1. IP: 192.168.1 00. 20
            2. SN: 255.255.255.
            3. DG: 192.168.1 00 .1 0
+           
+           
  **3. Exchange server**
      a. OS: Windows 2016 of 2019
      b. Naam Exchange Server ➔ WIN-EXC-3DE
@@ -57,6 +61,8 @@
            1. IP: 192.168.100. 40
            2. SN: 255.255.255.
            3. DG: 192.168.1 00. 10
+           
+           
  **5. SharePoint server**
      a. OS Windows 2016 of 2019
      b. Naam SQL Server ➔ WIN-SHP-3DE
@@ -66,6 +72,8 @@
            1. IP: 192.168.100. 50
            2. SN: 255.255.255.
            3. DG: 192.168.100. 10
+           
+           
  **6. Windows Cliënt**
      a. OS: Windows 10
      b. Naam client ➔ WIN-CLT1-3DE
@@ -77,20 +85,26 @@
  iii. Zorg dat de client ook de DGW en de DNS servers meekrijgt binnen zijn DHCP
  aanvraag.
      d. Software nodig om te mailen (Office – Thunderbird - ....)
+     
+     
  **7. Bijkomende specificaties**
      a. Domeinnaam voor deze opstelling ➔ **uw voornaam.periode**
         i. Voorbeeld ➔ **dirk.periode**
      b. Configureer op uw DC 1 de routerfaciliteiten zodat uw intern netwerk via de DC1 op
         het internet kan.
      c. Zorg ook dan DNS op alle servers wordt ingesteld op 192.168.100.
+     
+     
  **8. Opdracht specifiek servers**
      a. Automatiseer alles via **Powershell**.
         i. Dit betekent dat u een oplossing zoekt via scripting om uw servers en clients
            te installeren via een powershell script.
- ii. Nummer deze scripts in de volgorde die nodig zijn om de installatie te
- voltooien.
+        ii. Nummer deze scripts in de volgorde die nodig zijn om de installatie te
+            voltooien.
      b. Maak geen gebruik van **VAGRANT**
      c. Exchange server
+
+
 
 
  ```
