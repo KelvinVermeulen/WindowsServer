@@ -21,11 +21,14 @@
  U krijgt dus volgende situatie
 
  **1. Domeincontroller**
-     a. OS: Windows 201 9
+     a. OS: Windows 2019
+     
      b. NAAM domain controller 1 ➔ WIN-DC1-3DE
+     
      c. IP instellingen WIN-DC1-3DE
         i. 1 NIC op NAT
- ii. 1 NIC op intern netwerk met volgende IP configuratie
+        ii. 1 NIC op intern netwerk met volgende IP configuratie
+        
  1. IP: 192.168.1 00 .1 0
  2. SN: 255.255.255.
  
