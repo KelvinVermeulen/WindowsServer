@@ -21,6 +21,7 @@
  U krijgt dus volgende situatie
 
  **1. Domeincontroller**
+ 
      a. OS: Windows 2019
      
      b. NAAM domain controller 1 ➔ WIN-DC1-3DE
@@ -29,11 +30,12 @@
         i. 1 NIC op NAT
         ii. 1 NIC op intern netwerk met volgende IP configuratie
         
- 1. IP: 192.168.1 00 .1 0
- 2. SN: 255.255.255.
+     1. IP: 192.168.1 00 .1 0
+     2. SN: 255.255.255.
  
  
  **2. SQL server**
+ 
      a. OS: Windows 2016 of 2019
      b. Naam SQL Server ➔ WIN-SQL-3DE
      c. Versie SQL versie 2017
